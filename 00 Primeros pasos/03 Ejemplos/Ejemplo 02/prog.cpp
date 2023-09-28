@@ -4,7 +4,7 @@
    Fecha: 27-sep-2023
 */
 #include <iostream>
-
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -24,7 +24,9 @@ int main() {
   comision = ventaTotal * 0.10;
   totalPago = sueldoBase + comision;   
   // Salida
-  cout << "Total del pago es: " << totalPago << endl;
-  cout << "Comisión: " << comision << endl;  
+  cout << fixed << left << setw(25) << "Total del pago es:"; 
+  cout << fixed << right << setw(10) << setprecision(2)<< setfill('*')<< totalPago << endl;
+  cout << fixed << left << setw(25) << "Comisión: ";
+  cout << fixed << right << setw(10) << setprecision(2)<< comision << endl;  
    return 0; 
 }
