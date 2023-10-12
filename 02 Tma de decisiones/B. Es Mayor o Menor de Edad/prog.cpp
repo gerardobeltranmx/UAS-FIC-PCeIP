@@ -15,9 +15,11 @@ int main() {
 
    if (edad >= 18){
       cout << "Es Mayor" << endl;
+      cout << "Bienvenido!!!" << endl;
    }
    else {
       cout << "Es Menor" << endl;
+      cout << "Vuelve al cumplir los 18" << endl;
    }
 
    return 0; 
