@@ -35,6 +35,6 @@ int main() {
          cont++;
    }
 
-
+   cout << N << " " << cont << endl;
    return 0; 
 }
