@@ -10,16 +10,16 @@ using namespace std;
 int main() {
   int a, b, mayor, cajas;
   const int trabajadores = 534; 
-  string proveedor;
+  char proveedor;
   cin >> a >> b; 
 
    if (a > b){
       mayor = a;
-      proveedor = "A";
+      proveedor = 'A';
    }
    else{
       mayor = b;
-      proveedor = "B";
+      proveedor = 'B';
    }
    cajas = trabajadores / mayor;
 
