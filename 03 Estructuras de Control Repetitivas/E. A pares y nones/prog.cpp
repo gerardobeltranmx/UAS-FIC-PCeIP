@@ -31,7 +31,6 @@ int main() {
    }
    promAparicio = sumaAparicio / cuentaAparicio;
    promNonila = sumaNonila / cuentaNonila;
-
    if (promAparicio > promNonila){
          cout << "APARICIO" << endl;
    }      
