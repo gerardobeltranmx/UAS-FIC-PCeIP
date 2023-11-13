@@ -13,7 +13,7 @@ int main() {
    int cuentaAparicio=0, cuentaNonila=0;
    int promAparicio, promNonila;
 
-   cout << "Numero de cartas: ";
+  // cout << "Numero de cartas: ";
    cin >> N;
 
    for (int i=1; i<=N; i++){
