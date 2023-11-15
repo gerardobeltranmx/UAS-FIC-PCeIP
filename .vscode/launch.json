@@ -3,11 +3,22 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
+      "type": "cppdbg",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/gerardo/Proyectos/Clases/UAS-FIC-PCeIP",
-      "program": "/Users/gerardo/Proyectos/Clases/UAS-FIC-PCeIP/build/Debug/outDebug"
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/gerardo/Documentos/Proyectos/Clases/UAS-FIC-PCeIP",
+      "program": "/home/gerardo/Documentos/Proyectos/Clases/UAS-FIC-PCeIP/build/Debug/outDebug",
+      "MIMode": "lldb",
+      "miDebuggerPath": "lldb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     }
   ]
 }
