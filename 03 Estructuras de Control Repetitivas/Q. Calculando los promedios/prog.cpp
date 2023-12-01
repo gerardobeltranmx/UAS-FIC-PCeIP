@@ -12,7 +12,6 @@ using namespace std;
 int main() {
    int k, mayor, menor, dato, suma=0;
    cin >> k;
-
    cin >> mayor;
    menor = mayor;
    suma=mayor;
