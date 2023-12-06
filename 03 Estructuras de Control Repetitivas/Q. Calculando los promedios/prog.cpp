@@ -28,9 +28,6 @@ int main() {
         cout << suma / k  << " " << menor << " " << mayor << endl;
       else
          cout << fixed << setprecision(3)<< (float)suma / k  << " " << menor << " " << mayor << endl; 
-
-
-
    }
    return 0; 
 }
